@@ -8,7 +8,11 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(user_input)
+<<<<<<< HEAD
   index = user_input.to_i - 1
+=======
+  return user_input.to_i - 1
+>>>>>>> efaac31cba7fc7acd2c507e1329b765d0c12ab90
 end
 
 def move(array, index, value = "X")
